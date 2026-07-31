@@ -8,10 +8,11 @@ The goal is to build a stupid simple device that measures the amount of time the
 
 
 🔥🔥🔥🔥 TODO 🔥🔥🔥🔥
-* Order different photodiodes. Try to make them very sensitive.
-* Figure out what to do when the photodiodes push too much voltage into the board and crash it.
-* Figure out if we should use analog voltage to wake up our device or something else.
-* Figure out if there is a TOF sensor that can wake up our device if a distance exceeds 4 inches.
+* Figure out a file format that works. Maybe CSV with empty row for new flight.
+* Record distance, altitude, timestamp, random light value to a CSV File. Create a web app that has a download CSV file button. Also display the battery voltage.
+* Test out the new distance sensor in sunlight.
+* Order an SPI Flash from adafruit to play with. Maybe I2C or SPI FRAM too while you are at it.
+* Create a webapp that takes that CSV file and analyzes all the flights, and shows data
 * Figure out the min ditance our TOF sensor works at, and the distance when flying normally.
-* Wait for the barometric sensor, adafruit feather + 3.7v battery to get here wednesday.
-* Host a webapp on the esp32 that tells us the light voltage and ditance, as well as a log of barometric pressure every 30 seconds. Put it in the glider and watch the data change.
+
+
