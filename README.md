@@ -8,11 +8,12 @@ The goal is to build a stupid simple device that measures the amount of time the
 
 
 🔥🔥🔥🔥 TODO 🔥🔥🔥🔥
-* Figure out a file format that works. Maybe CSV with empty row for new flight.
+* Figure out a file format that works
+* Order a GPS module, see if we can update the timestamp with it, and how fast it finds location after sleeping.
 * Record distance, altitude, timestamp, random light value to a CSV File. Create a web app that has a download CSV file button. Also display the battery voltage.
 * Test out the new distance sensor in sunlight.
-* Order an SPI Flash from adafruit to play with. Maybe I2C or SPI FRAM too while you are at it.
+* Order an SPI Flash from adafruit to play with. Maybe I2C or SPI FRAM too while you are at it. And GPS
 * Create a webapp that takes that CSV file and analyzes all the flights, and shows data
-* Figure out the min ditance our TOF sensor works at, and the distance when flying normally.
+
 
 
