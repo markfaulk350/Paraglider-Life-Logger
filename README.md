@@ -1,7 +1,7 @@
 # Paraglider-Life-Logger
 
 # 🔥🔥🔥🔥 TODO 🔥🔥🔥🔥
-* Figure out a file format that works
+* Decide on CSV file format variable types and names, then work on the web app that takes that CSV upload, analyzes it, then displays it.
 * Order a GPS module, see if we can update the timestamp with it, and how fast it finds location after sleeping.
 * Record distance, altitude, timestamp, random light value to a CSV File. Create a web app that has a download CSV file button. Also display the battery voltage.
 * Test out the new distance sensor in sunlight.
