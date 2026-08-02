@@ -27,6 +27,7 @@
 # "Other" Hardware used during Testing
 * [ESP32-S3-DevKitC-1-N8R8 Development Board](https://a.co/d/014kO2zb)
 * [Adafruit LTR-303 Light Sensor - STEMMA QT / Qwiic](https://www.adafruit.com/product/5610)
+* ⚠️ For testing purposes while we wait for MAX44009 to arrive [TSL2591 High Dynamic Range Digital Light Sensor](https://a.co/d/0fmpuZYm)
 
 
 ## Electrical Engineer's Reccomended Hardware
