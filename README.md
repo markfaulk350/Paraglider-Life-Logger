@@ -7,6 +7,10 @@
 * Test out the new distance sensor in sunlight.
 * Order an SPI Flash from adafruit to play with. Maybe I2C or SPI FRAM too while you are at it. And GPS
 * Create a webapp that takes that CSV file and analyzes all the flights, and shows data
+* When it comes to analyzing the CSV sensor data, can we use AI to look at each flight and see if anything is weird?
+  * Maybe glider is left in car that still has a little bit of light
+  * Glider is in stuff sack, still exposed to light, going up gondola for more laps
+  * etc... Anytime the glider isnt in complete darkness while packed away  
 
 
 # Current Hardware
