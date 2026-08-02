@@ -1,12 +1,5 @@
 # Paraglider-Life-Logger
 
-[Example Web App on CodePen | The esp32 will serve this page with the onboard data. No internet connection required](https://codepen.io/editor/markfaulk350/pen/019f87c5-aa06-7c7d-9d85-782d8050ce29)
-
-## Goal
-The goal is to build a stupid simple device that measures the amount of time the glider has spent out of the bag. A single light sensor cannot tell us whether you are sitting on launch parawaiting, kiting, flying, packing your wing, etc. But its a simple metric. How many hours has this glider been out of the bag exposed to light.
-
-
-
 # 🔥🔥🔥🔥 TODO 🔥🔥🔥🔥
 * Figure out a file format that works
 * Order a GPS module, see if we can update the timestamp with it, and how fast it finds location after sleeping.
@@ -23,9 +16,16 @@ The goal is to build a stupid simple device that measures the amount of time the
 * [MPL3115A2 - I2C Barometric Pressure/Altitude/Temperature Sensor](https://www.adafruit.com/product/1893)
 * [TOF400C VL53L1X 4M Laser Ranging Sensor](https://a.co/d/06YS9mfA)
 * [SHILLEHTEK MPU6050 GY-521 Module | 6-Axis Accelerometer Sensor & IMU Sensor](https://a.co/d/0cQsTEwh)
+* [Adafruit SPI FLASH Breakout W25Q128 - 128 MBit / 16 MByte](https://www.adafruit.com/product/5643)
+* (OPTIONAL) | [Adafruit Mini GPS PA1010D](https://www.adafruit.com/product/4415) - GPS can be used to get the time, which solves the RTC drift issue
 
 
 # "Other" Hardware used during Testing
 * [ESP32-S3-DevKitC-1-N8R8 Development Board](https://a.co/d/014kO2zb)
 * [Adafruit LTR-303 Light Sensor - STEMMA QT / Qwiic](https://www.adafruit.com/product/5610)
-* 
+
+
+## Electrical Engineer's Reccomended Hardware
+* [STM32U073KCU6](https://www.digikey.com/en/products/detail/stmicroelectronics/STM32U073KCU6/22332782)
+* CR2032 battery (220-240 mAh) or CR2450 battery (500-620 mAh)
+* 16Mbit external SPI flash (Use internal RAM as buffer, then save to External flash when buffer is full. Issue #31 for more info)
