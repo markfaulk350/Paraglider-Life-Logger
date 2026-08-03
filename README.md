@@ -1,6 +1,7 @@
 # Paraglider-Life-Logger
 
 # 🔥🔥🔥🔥 TODO 🔥🔥🔥🔥
+* See if 3 axis accelerometer works while moving
 * Decide on CSV file format variable types and names, then work on the web app that takes that CSV upload, analyzes it, then displays it.
 * Order a GPS module, see if we can update the timestamp with it, and how fast it finds location after sleeping.
 * Record distance, altitude, timestamp, random light value to a CSV File. Create a web app that has a download CSV file button. Also display the battery voltage.
@@ -19,7 +20,7 @@
 * [Adafruit MAX44009 Wide-range Lux Light Sensor - 188,000 Lux Max STEMMAQT / Qwiic](https://www.adafruit.com/product/6498)
 * [MPL3115A2 - I2C Barometric Pressure/Altitude/Temperature Sensor](https://www.adafruit.com/product/1893)
 * [TOF400C VL53L1X 4M Laser Ranging Sensor](https://a.co/d/06YS9mfA)
-* [SHILLEHTEK MPU6050 GY-521 Module | 6-Axis Accelerometer Sensor & IMU Sensor](https://a.co/d/0cQsTEwh)
+* [ADXL345 Digital 3-Axis Acceleration of Gravity Tilt Module](https://a.co/d/00gVuAMz)
 * [Adafruit SPI FLASH Breakout W25Q128 - 128 MBit / 16 MByte](https://www.adafruit.com/product/5643)
 * (OPTIONAL) | [Adafruit Mini GPS PA1010D](https://www.adafruit.com/product/4415) - GPS can be used to get the time, which solves the RTC drift issue
 
@@ -27,6 +28,7 @@
 # "Other" Hardware used during Testing
 * [ESP32-S3-DevKitC-1-N8R8 Development Board](https://a.co/d/014kO2zb)
 * [Adafruit LTR-303 Light Sensor - STEMMA QT / Qwiic](https://www.adafruit.com/product/5610)
+* ⚠️ Energy Hog [SHILLEHTEK MPU6050 GY-521 Module | 6-Axis Accelerometer Sensor & IMU Sensor](https://a.co/d/0cQsTEwh)
 * ⚠️ For testing purposes while we wait for MAX44009 to arrive [TSL2591 High Dynamic Range Digital Light Sensor](https://a.co/d/0fmpuZYm)
 
 
